@@ -26,7 +26,7 @@ CREATE NONCLUSTERED INDEX [IX_Document_FileName_Revision] ON [Production].[Docum
 GO
 CREATE UNIQUE NONCLUSTERED INDEX [AK_Document_rowguid] ON [Production].[Document] ([rowguid]) ON [PRIMARY]
 GO
-ALTER TABLE [Production].[Document] ADD CONSTRAINT [UQ__Document__F73921F744672977] UNIQUE NONCLUSTERED  ([rowguid]) ON [PRIMARY]
+ALTER TABLE [Production].[Document] ADD CONSTRAINT [UQ__Document__F73921F7BAEE5BF6] UNIQUE NONCLUSTERED  ([rowguid]) ON [PRIMARY]
 GO
 ALTER TABLE [Production].[Document] ADD CONSTRAINT [FK_Document_Employee_Owner] FOREIGN KEY ([Owner]) REFERENCES [HumanResources].[Employee] ([BusinessEntityID])
 GO
