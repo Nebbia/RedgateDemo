@@ -1,0 +1,6 @@
+INSERT INTO [Sales].[Currency] ([CurrencyCode], [Name], [ModifiedDate]) VALUES (N'GBP', N'Australian dollar', '1972-10-15 06:38:56.580')
+INSERT INTO [Sales].[Currency] ([CurrencyCode], [Name], [ModifiedDate]) VALUES (N'GIP', N'Pound sterling', '1981-11-22 10:31:17.870')
+INSERT INTO [Sales].[Currency] ([CurrencyCode], [Name], [ModifiedDate]) VALUES (N'LBP', N'Euro', '1975-04-29 17:13:05.540')
+INSERT INTO [Sales].[Currency] ([CurrencyCode], [Name], [ModifiedDate]) VALUES (N'MWK', N'Swiss franc', '1968-05-27 04:20:08.050')
+INSERT INTO [Sales].[Currency] ([CurrencyCode], [Name], [ModifiedDate]) VALUES (N'MYR', N'US dollar', '1978-07-18 19:45:09.620')
+INSERT INTO [Sales].[Currency] ([CurrencyCode], [Name], [ModifiedDate]) VALUES (N'THB', N'Yen', '1997-01-25 01:21:01.550')
